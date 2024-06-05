@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Botas de Fútbol</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TiendaDeBotas</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Compra las mejores botas de fútbol</h1>
+        <p>Encuentra las botas perfectas para tu próximo partido.</p>
+        <div class="product-grid">
+            <div class="product">
+                <img src="bota1.jpg" alt="Bota 1">
+                <h2>Bota de Fútbol 1</h2>
+                <p>$50.00</p>
+                <button>Comprar ahora</button>
+            </div>
+            <div class="product">
+                <img src="bota2.jpg" alt="Bota 2">
+                <h2>Bota de Fútbol 2</h2>
+                <p>$60.00</p>
+                <button>Comprar ahora</button>
+            </div>
+            <div class="product">
+                <img src="bota3.jpg" alt="Bota 3">
+                <h2>Bota de Fútbol 3</h2>
+                <p>$70.00</p>
+                <button>Comprar ahora</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contacto: info@tiendadebotas.com</p>
+        <p>Síguenos en:
+            <a href="#">Facebook</a>,
+            <a href="#">Twitter</a>,
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
